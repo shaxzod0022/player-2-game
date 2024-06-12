@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(149, 59, 59);
+    color: white;
+    padding: 1rem 4rem;
+}
+
+.container-child2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.left-player,
+.right-player {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+
+.left-player {
+    background: rgba(195, 165, 165, 0.9);
+}
+
+.right-player {
+    background: rgba(197, 128, 128, 0.9);
+}
+
+.left-player div:nth-child(2),
+.right-player div:nth-child(2) {
+    width: 50%;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+}
+
+.left-player div span,
+.right-player div span {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+p,
+.shot {
+    font-size: 50px !important;
+}
+
+.buttons {
+    height: 70vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player {
+    font-size: 120px !important;
+}
+
+.new-game button {
+    padding: 1rem 2rem;
+}
+
+.btn-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn-content button {
+    padding: 8px 1rem;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgba(251, 239, 239, 0.9);
+    border: none;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: rgba(222, 211, 211, 0.9);
+    ;
+}
+
+button:active {
+    background-color: brown;
+}
+
+.zarik {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: brown;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+}

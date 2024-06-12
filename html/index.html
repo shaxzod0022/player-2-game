@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>New game</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-child1">
+        <h2>O'yin nomini bilmadim!</h2>
+      </div>
+      <div class="container-child2">
+        <div class="left-player">
+          <div>
+            <p>PLAYER 1</p>
+            <span class="player">0</span>
+          </div>
+          <div>
+            <span>CURRENT</span>
+            <span id="player1" class="shot">0</span>
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="new-game">
+            <button type="button">
+              <span><i class="fa-solid fa-power-off"></i></span>
+              <span>NEW GAME</span>
+            </button>
+          </div>
+          <div class="zarik"></div>
+          <div class="btn-content">
+            <button id="roll-dice" type="button">
+              <span><i class="fa-solid fa-dice"></i></span>
+              <span>ROLL DICE</span>
+            </button>
+            <button id="save" type="button">
+              <span><i class="fa-solid fa-download"></i></span>
+              <span>HOLD</span>
+            </button>
+          </div>
+        </div>
+        <div class="right-player">
+          <div>
+            <p>PLAYER 2</p>
+            <span class="player">0</span>
+          </div>
+          <div>
+            <span>CURRENT</span>
+            <span class="shot">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
